@@ -16,7 +16,7 @@ const siteMetadata = {
   email: 'info@imed.dev',
   github: 'https://github.com/imedboumalek',
   twitter: 'https://twitter.com/imedboumalek',
-  youtube: 'https://youtube.com',
+  youtube: 'https://www.youtube.com/@imed-boumalek',
   linkedin: 'https://www.linkedin.com/in/imed-boumalek',
   locale: 'en-US',
   analytics: {
