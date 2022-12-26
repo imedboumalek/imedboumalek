@@ -5,6 +5,7 @@
   "scripts": {
     "start": "next dev",
     "dev": "INIT_CWD=$PWD next dev",
+    "prebuild": "npm i --force",
     "build": "INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node -r esbuild-register ./scripts/postbuild.mjs",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
