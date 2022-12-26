@@ -12,7 +12,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/imedboumalek/imedboumalek',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '',
   email: 'info@imed.dev',
   github: 'https://github.com/imedboumalek',
   twitter: 'https://twitter.com/imedboumalek',
