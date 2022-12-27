@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import siteMetadata from '@/data/siteMetadata'
+import Script from 'next/script'
 
 class MyDocument extends Document {
   render() {
@@ -30,6 +31,11 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <Script id="mcjs">
+          {`
+          !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4ff2d77c241697bc67b434928/92ceb0b461d204b020dc2f13a.js");
+          `}
+        </Script>
       </Html>
     )
   }
